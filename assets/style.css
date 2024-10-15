@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --p-bg: gray;
+
+}
+nav{
+    background-color: black;
+    color: gold;
+    padding: 15px;
+   position: relative;
+   animation-name: head;
+   animation-duration: 6s;
+}
+@keyframes head{
+    from {background-color: black;}
+    to {background-color: aquamarine;}
+}
+ul{
+    display: inline;
+    margin-left: 47%;
+
+}
+li,h1{
+
+display: inline;
+cursor: pointer;
+
+}
+li{
+    color: grey ;
+    
+}
+li:hover{
+    color: aliceblue;
+}
+
+input{
+    width: 55%;
+    padding: 15px;
+}
+button{
+    text-align: center;
+    width: 9%;
+    height: 19px;
+}
+button:hover{
+    cursor: pointer;
+    color: green;
+}
+.search{
+    padding: 50px;
+    text-align: center;
+}
+
+    
+
+img{
+    width: 190px;
+    height: 220px;
+}
+
+#over{
+    text-align: center;
+    background-color: black;
+overflow: scroll;
+color: antiquewhite;
+width: 400px;
+height: 60px;
+margin-left: 40%;
+}
+ p::first-line{
+    color:black;
+ }
+ p{
+    color: var(--p-bg);
+ }
+.box{
+
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    width: 220px;
+    margin: 10px;
+    display: inline-block;
+    border-width: 2px;
+
+}
+
+.products{
+    text-align: center;
+    
+}
+.box:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.About{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    outline-style: dotted;
+}
+
+.Contact{
+
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: black;
+}
+  .Contact .tool{
+    visibility: hidden;
+    background-color: rgb(230, 230, 88);
+    color: black;
+    width: 120px;
+    position: relative;
+  }
+
+  .Contact:hover .tool{
+    visibility: visible;
+  }
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+ }
+ .dropdown-content{
+    display: none;
+    box-shadow: #f9f9f9;
+    background-color: grey;
+    
+ }
+ .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+  input[type=text],select,input[type=number]{
+
+    width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+  input[type=submit]{
+    width: 20%;
+    background-color: rgb(78, 208, 78);
+    color: aliceblue;
+    cursor: pointer;
+  }
+  input[type=submit]:hover{
+    background-color: green;
+  }
+  form{
+    text-align: center;
+  }

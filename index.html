@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume shop</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<style>
+    table,th,td{
+        border: solid;
+    }
+</style>
+<body>
+    <div class="header">
+        <nav>
+            <div class="dropdown">
+<h1>Perfect Perfume</h1>
+<div class="dropdown-content">
+    <p>India's No.1 Brand</p>
+</div>
+            </div>
+<ul>
+<li>HOME   |</li>
+<li>SEARCH   |</li>
+<li>PRODUCT   |</li>
+<li>ABOUT US   |</li>
+<li>CONTACT   </li>
+
+
+</ul>
+        </nav>
+    </div>
+    <div class="search">
+        <input type="search" placeholder="Type" id="search1">
+       <br><br>
+        <button id="search button">SEARCH</button>
+    </div>
+    
+    <!--This is products section -->
+
+    <div class="products">
+
+        <div class="box">
+            <img src="assets/img/photo-1458538977777-0549b2370168.avif" alt="Loading..">
+            <p>Perfume 1</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/photo-1541643600914-78b084683601.avif" alt="Loading..">
+            <p>Perfume 2</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/photo-1590156221719-02e2d5ae7345.avif" alt="Loading..">
+        <p>perfume 3</p>
+        </div>
+<br> <br>
+        <div class="box">
+         <img src="assets/img/photo-1605619082574-e92eee603b95.avif" alt="Loading..">
+         <p>perfume 4</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/premium_photo-1661591456461-0fadb5327243.avif" alt="Loading">
+            <p>Perfume 5
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/premium_photo-1671498256988-61093558c5bd.avif" alt="Loading..">
+        <p>Perfume 6</p>
+        </div>
+
+    </div>
+   
+    <div class="About">
+        <i class="glyphicon glyphicon-user" style="margin-bottom: 10px;"></i> <h1>About us</h1>
+        <p> <kbd>ctrl+s</kbd> &lt; &forall;Lorem ipsum dolor sit amet consectetur adipisicing <q>Possimus dolorem animi illum, ab quo eos saepe esse quasi incidunt</q>, cumque laborum odio minima! Fuga, iste! Optio et hic delectus tenetur.</p>
+    <p id="over">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde mollitia, placeat expedita aspernatur iste soluta. Deserunt, aliquam corporis facere minima voluptatem quasi sit quaerat temporibus iste beatae. Culpa, excepturi incidunt.</p>
+    </div>
+ 
+    <div class="Contact">
+        <span class="tool">INFORMATION ABOUT US</span>
+        <table>
+            <tr>
+                <th>Location</th>
+                <th>Number</th>
+            </tr>
+            <tr>
+                <td>Coimbatore</td>
+                <td>15345345
+                </td>
+                
+            </tr>
+            <tr>
+                <td> chennai</td>
+                <td>51454115
+                </td>
+            </tr>
+        </table>
+        <h3>Contact</h3>
+        <h4>+91 9876862344</h4>
+        <h4>perfectperfume@gmail.com</h4>
+        <a href="https://www.perfumelounge.in" style="color: blueviolet;">www.perfume.com  </a><br>
+        <i  >Thank you for choosing our perfect perfume shop,We look forward to helping you find a scent that inspires and delights😌.</i>
+    </div>
+
+<div class="form">
+    <form action="">
+<h2>Feedback Form</h2>
+<label for="name">Name</label><br>
+<input type="text" id="name" placeholder="Your name"><br>
+<label for="phn">Phone Number</label><br>
+<input type="number" id="phn" placeholder="Your number"><br>
+<label for="gender">Gender</label><br>
+<select name="gender" id="gender"><option value="Male">Male</option> <option value="female">Female</option></select><br>
+<label for="Fb">Feedback</label><br>
+<input type="text" id="Fb" placeholder="enter your thoughts"><br>
+<input type="submit" id="submit" value="submit">
+    </form>
+</div>
+
+<script>
+document.getElementById("search button").addEventListener("click",function(){
+    alert("Loading,wait a sec.....!!");
+    var text = document.getElementById("demo").value;
+   var result= text.lastIndexOf("planet"); 
+
+});
+document.getElementById("submit").addEventListener("click",function(){alert("Thanks for the feedback...!!");
+
+});
+
+</script>
+
+</body>
+</html>
